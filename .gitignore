@@ -1,0 +1,11 @@
+*.pptx
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
+*.7z
+*.pdf
+*.exe
+*.crdownload
+node_modules/

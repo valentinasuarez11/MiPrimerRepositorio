@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Brota Vida</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div id="contenedor1">
+            <h1>Brota Vida</h1>
+            <a href="index.html"><img src="Img/logo.PNG" alt="Logo de Brota Vida"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="formulario.html">Déjanos tus datos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="linea">
+
+    </div>
+
+    <div class="breadcrumb">
+        <span>Nuestros productos</span>
+    </div>
+
+    
+
+    <main class="contenedor-productos">
+
+        <aside class="menu-categorias">
+            <h3>Categorías</h3>
+            <ul>
+              <li>
+                <a href="#germinados"><img src="Img/menugerminados.jpg" alt="Logo de Brota Vida"></a>
+                <span>Germinados</span>
+              </li>
+              <li>
+                <a href="#kit"><img src="Img/menukit.jpg" alt="Logo de Brota Vida"></a>
+                <span>Kit de siembra</span>
+              </li>
+            </ul>
+          </aside>
+          
+
+        <section class="contenido-productos">
+            <div id="tituloNuestros">
+
+                <h2 id="germinados">Nuestros Germinados</h2>
+
+            </div>
+            
+
+            <div class="tarjetas-producto">
+                <div class="producto">
+                    <img src="Img/Germinado-de-Brócoli-Fondo-Blanco-1-300x300.jpeg" alt="Germinado de brócoli">
+                    <h3>Brócoli</h3>
+                    <p>Rico en sulforafano, excelente para el sistema inmunológico.</p>
+                </div>
+                <div class="producto">
+                    <img src="Img/brotes-alfalfa.jpg" alt="Germinado de alfalfa">
+                    <h3>Alfalfa</h3>
+                    <p>Ligero, fresco y lleno de vitaminas. Ideal para ensaladas.</p>
+                </div>
+                <div class="producto">
+                    <img src="Img/Germinado-de-Rabano-Chino-Fondo-Blanco.jpeg" alt="Germinado de rábano">
+                    <h3>Rábano</h3>
+                    <p>Picante natural y desintoxicante. Le da vida a tus platos.</p>
+                </div>
+                <div class="producto">
+                    <img src="Img/germinado-lenteja.webp" alt="Germinado de lenteja">
+                    <h3>Lenteja</h3>
+                    <p>Fuente de proteína vegetal. Suave y versátil.</p>
+                </div>
+                <div class="producto">
+                    <img src="Img/Col-Morado-300x300.jpg" alt="Germinado de col morada">
+                    <h3>Col morada</h3>
+                    <p>Color vibrante, alto en antioxidantes y con un sabor suave ideal para ensaladas.</p>
+                    
+                </div>
+                <div class="producto">
+                    <img src="Img/germinado-girasol.jpg" alt="Germinado de girasol">
+                    <h3>Girasol</h3>
+                    <p>Crocante, con sabor a nuez. Perfecto en bowls o sopas.</p>
+                </div>
+
+                <div class="producto">
+                    <img src="Img/garbanzo.jpg" alt="Germinado de girasol">
+                    <h3>Garbanzo</h3>
+                    <p>Suave y nutritivo, con textura tierna. Excelente para ensaladas, wraps y platos mediterráneos.</p>
+                </div>
+
+                <div class="producto">
+                    <img src="Img/mostaza.jpg" alt="Germinado de girasol">
+                    <h3>Mostaza</h3>
+                    <p>Aromático y ligeramente picante. Perfecto para dar vida a sandwiches gourmet y platos asiáticos.</p>
+                </div>
+
+                <div class="producto">
+                    <img src="Img/berro.jpg" alt="Germinado de girasol">
+                    <h3>Berro</h3>
+                    <p>Picante y refrescante. Ideal para ensaladas y sándwiches con un toque de sabor intenso.</p>
+                </div>
+
+                <div class="producto">
+                    <img src="Img/soya.jpg" alt="Germinado de girasol">
+                    <h3>Soya</h3>
+                    <p>Delicado y versátil, con textura crujiente. Ideal para salteados, rollitos de primavera y platos orientales.</p>
+                </div>
+            </div>
+
+            <div id="tituloKit">
+
+                <h2 id="kit">Kit de Germinación</h2>
+
+            </div>
+
+            
+
+            <section id="calculadora">
+                <h2>Calcula tu cosecha</h2>
+                <label for="semillas">¿Cuántos gramos de semillas quieres?</label>
+                <input type="number" id="semillas" placeholder="Ej. 10">
+                <button onclick="calcular()">Calcular germinados</button>
+                <p id="resultado"></p>
+            </section>
+
+            <div class="producto kit">
+                <img src="Img/KIT-GERMINADOS-2-e1685487230575.png" alt="Kit de germinación">
+                <h3>Kit Completo de Germinación</h3>
+                <p>Incluye frasco germinador, tapa, instrucciones y la cantidad de semillas que desees mixtas (alfalfa, rábano y lenteja). Ideal para iniciar en casa.</p>
+            </div>
+
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Img/logo.PNG" alt="Logo de Brota Vida">
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="formulario.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Medellin, Colombia</p>
+                <p><i class="fas fa-phone"></i> +573116531137</p>
+                <p><i class="fas fa-envelope"></i> info@brotavida.com</p>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.x.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Brota Vida. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/573116531137"><i class="fab fa-whatsapp"></i> <span>¿Preguntas? Escríbenos</span></a>
+    </div>
+
+    
+      
+<script src="JS/cosecha.js"></script>
+</body>
+</html>
